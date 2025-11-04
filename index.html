@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ==========================
+        META & SEO BASICS
+    =========================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The The Rostrum Academy — Unleash your inner performer. Modern acting, voice, and movement training.">
+    <meta name="keywords" content="theater academy, acting school, performing arts, drama, stage">
+    <meta name="author" content="The Rostrum Academy">
+
+    <title>The Rostrum Academy</title>
+
+    <!-- ==========================
+        FONT & STYLE
+    =========================== -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- ==========================  
+        SCRIPTS
+    =========================== -->
+    <script src="/scripts/Nav.js" defer></script>
+    <script src="/scripts/contactForm.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- ==========================
+        HEADER
+    =========================== -->
+    <header>
+        <div class="header-inner">
+            <a href="#hero">
+                <div class="logo">The Rostrum</div>
+            </a>
+
+
+            <button class="menu-toggle" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="sr-only">Toggle navigation</span>
+            </button>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#videos">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!-- ==========================
+        HERO SECTION
+    =========================== -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Unleash the Performer Within</h1>
+            <p>Discover the art of stage, voice, and movement at The Rostrum Academy — where passion meets mastery.</p>
+            <a href="#programs" class="cta-btn">Explore Programs</a>
+        </div>
+    </section>
+
+    <!-- ==========================
+        PROGRAMS SECTION
+    =========================== -->
+    <section class="programs" id="programs">
+        <h2>Our Programs</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/763214/pexels-photo-763214.jpeg" alt="Acting Fundamentals">
+                <div class="card-content">
+                    <h3>Acting Fundamentals</h3>
+                    <p>Master expression, emotion, and body language through foundational training.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/713149/pexels-photo-713149.jpeg" alt="Voice & Diction">
+                <div class="card-content">
+                    <h3>Voice & Diction</h3>
+                    <p>Develop your vocal power, tone, and clarity to command any stage.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/3771839/pexels-photo-3771839.jpeg" alt="Movement & Mime">
+                <div class="card-content">
+                    <h3>Movement & Mime</h3>
+                    <p>Learn the art of physical storytelling and movement-based acting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================
+        VIDEO CARDS
+    =========================== -->
+    <section class="videos" id="videos">
+        <h2>Scenes from Our Stage</h2>
+        <div class="video-grid">
+            <div class="video-card">
+                <video autoplay muted loop controls>
+                    <source src="videos/sample-2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video-card">
+                <video autoplay muted loop controls>
+                    <source src="videos/sample-3.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video-card">
+                <video autoplay muted loop controls>
+                    <source src="videos/sample-4.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================
+        TESTIMONIALS
+    =========================== -->
+    <section class="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial">
+            <p>“The Rostrum transformed me from a shy dreamer to a confident performer. The mentors breathe life into
+                art.”</p>
+            <div class="author">— Maya Thorne, Alumni</div>
+        </div>
+    </section>
+
+    <!-- ==========================
+        CONTACT 
+    =========================== -->
+    <section class="contact" id="contact">
+        <h2>Join the Stage</h2>
+        <p>Ready to start your journey? Get in touch below.</p>
+        <form id="contact-form" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Custom Alert -->
+        <div id="alert" class="alert">
+            <div class="alert-box">
+                <p>Message Sent</p>
+                <button>Close</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+        FOOTER
+    =========================== -->
+    <footer>
+        <div class="footer-col">
+            <h4>The Rostrum Academy</h4>
+            <p>Where stories find their voice and performers find their truth.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#videos">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col socials">
+            <h4>Follow Us</h4>
+            <a href="#"><img src="images/icon_FB.png" alt=""></a>
+            <a href="#"><img src="images/icon_IN.png" alt=""></a>
+            <a href="#"><img src="images/icon_YT.png" alt=""></a>
+        </div>
+        <div class="footer-bottom">© 2025 The Rostrum Academy. All rights reserved.</div>
+    </footer>
+
+</body>
+
+</html>
