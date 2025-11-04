@@ -385,14 +385,10 @@ ALERT BOX
 }
 
 .card img {
+    display: block;
     width: 100%;
-    height: 200px;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.card:hover img {
-    transform: scale(1.1);
+    height: auto;
+    aspect-ratio: 16 / 10; /* reserve shape if you can't set exact width/height */
 }
 
 .card-content {
@@ -440,9 +436,10 @@ ALERT BOX
 }
 
 .video-card video {
+    display: block;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    aspect-ratio: 16 / 9; /* reserve video area */
 }
 
 /* ==========================
