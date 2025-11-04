@@ -17,17 +17,25 @@
     <!-- ==========================
         FONT & STYLE
     =========================== -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" as="style"
+        onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    </noscript>
+    <link rel="preload" href="styles/style.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="styles/style.css">
+    </noscript>
 
-        <!-- ==========================  
+
+    <!-- ==========================  
         SCRIPTS
     =========================== -->
     <script src="scripts/Nav.js" defer></script>
     <script src="scripts/contactForm.js" defer></script>
-    
+
 
 </head>
 
