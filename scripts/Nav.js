@@ -13,5 +13,6 @@
 navItemList.forEach(item=>{
   item.addEventListener("click", e=>{
     header.classList.toggle('open')
+    menuToggle.classList.toggle('active')
   })
 })
