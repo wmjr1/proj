@@ -284,6 +284,7 @@ ALERT BOX
         =========================== */
 .hero {
     height: 100vh;
+    aspect-ratio: 16/9;
     color: white;
     display: flex;
     align-items: center;
